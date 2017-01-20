@@ -10,10 +10,7 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var nameLabel: UILabel!
-    
-    @IBOutlet weak var expandButton: UIButton!
-    
+    @IBOutlet weak var expandButton: UIButton!    
     @IBOutlet weak var nameCorrectionTextField: UITextField!
     
     override func awakeFromNib() {

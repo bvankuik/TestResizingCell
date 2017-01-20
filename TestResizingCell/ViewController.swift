@@ -26,11 +26,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "CustomTableViewCell") as! CustomTableViewCell
-        
-        NSLog("self.size=\(self.size)")
-        
-        cell.nameLabel.text = self.items[indexPath.row]
-        
+        cell.expandButton.setTitle(self.items[indexPath.row], for: .normal)
         return cell
     }
     

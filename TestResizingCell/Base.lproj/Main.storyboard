@@ -32,29 +32,18 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Dqz-zc-Jh9">
+                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Dqz-zc-Jh9">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                                     <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3Gc-xU-f4c">
-                                                            <rect key="frame" x="0.0" y="0.0" width="375" height="30"/>
-                                                            <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label for name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZNk-hO-MXr">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="183.5" height="30"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                                    <nil key="textColor"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
-                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3U-zf-qZF">
-                                                                    <rect key="frame" x="191.5" y="0.0" width="183.5" height="30"/>
-                                                                    <state key="normal" title="Expand"/>
-                                                                    <connections>
-                                                                        <action selector="expandButtonTouchUpInside:" destination="LDU-PU-Hnw" eventType="touchUpInside" id="szC-rY-IQh"/>
-                                                                    </connections>
-                                                                </button>
-                                                            </subviews>
-                                                        </stackView>
+                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3U-zf-qZF">
+                                                            <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+                                                            <state key="normal" title="Expand"/>
+                                                            <connections>
+                                                                <action selector="expandButtonTouchUpInside:" destination="LDU-PU-Hnw" eventType="touchUpInside" id="szC-rY-IQh"/>
+                                                            </connections>
+                                                        </button>
                                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GqL-U3-IH5">
-                                                            <rect key="frame" x="0.0" y="38" width="375" height="61.5"/>
+                                                            <rect key="frame" x="0.0" y="54" width="375" height="45.5"/>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                             <textInputTraits key="textInputTraits"/>
@@ -72,7 +61,6 @@
                                         <connections>
                                             <outlet property="expandButton" destination="s3U-zf-qZF" id="PQa-h5-cNv"/>
                                             <outlet property="nameCorrectionTextField" destination="GqL-U3-IH5" id="RNy-3t-9CQ"/>
-                                            <outlet property="nameLabel" destination="ZNk-hO-MXr" id="dpM-3E-siE"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
