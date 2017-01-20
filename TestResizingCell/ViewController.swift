@@ -37,15 +37,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         items = [
             "Allen","Upton","Hu","Yuli","Tiger","Flynn","Lev","Kyle","Sylvester","Mohammad",
-            "Harlan","Julian","Sebastian","Porter","Preston","Palmer","Jakeem","Micah","Stephen","Tucker",
-            "Abbot","Caldwell","Steven","Gannon","Kasper","Jerome","Samson","Grant","Calvin","Nero",
-            "Igor","Roth","Abbot","Devin","Geoffrey","Ryan","Tobias","Oliver","Elton","Ivan",
-            "Plato","Kevin","Dustin","Harrison","Galvin","Gannon","Reece","Price","Maxwell","Rashad",
-            "Cooper","Aristotle","Dieter","Abraham","Louis","Akeem","Gary","Kamal","Hasad","Lance",
-            "Calvin","Lester","Thaddeus","Flynn","Silas","Lev","Carl","Harper","Drake","Travis",
-            "Herrod","Austin","Howard","Martin","Oscar","Ignatius","Wing","Howard","Justin","Dexter",
-            "Tucker","Alec","Hector","Hayes","Murphy","Wallace","Brandon","Gage","Dillon","Aquila",
-            "Cullen","Ivan","Brendan","Basil","Harrison","Zeph","George","Dylan","Bernard","Gary",
+            "Harlan","Julian","Sebastian","Porter","Preston","Palmer","Jakeem","Micah","Stephen","Tucker"
         ]
         
         self.tableView.estimatedRowHeight = 150

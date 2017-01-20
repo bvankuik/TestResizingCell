@@ -37,12 +37,12 @@
                                                     <subviews>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3U-zf-qZF">
                                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
-                                                            <state key="normal" title="Expand"/>
+                                                            <state key="normal" title="Button with name as title"/>
                                                             <connections>
                                                                 <action selector="expandButtonTouchUpInside:" destination="LDU-PU-Hnw" eventType="touchUpInside" id="szC-rY-IQh"/>
                                                             </connections>
                                                         </button>
-                                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GqL-U3-IH5">
+                                                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter correct name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GqL-U3-IH5">
                                                             <rect key="frame" x="0.0" y="54" width="375" height="45.5"/>
                                                             <nil key="textColor"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
