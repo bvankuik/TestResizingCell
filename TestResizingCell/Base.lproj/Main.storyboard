@@ -35,13 +35,12 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="Dqz-zc-Jh9">
                                                     <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
                                                     <subviews>
-                                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s3U-zf-qZF">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label with name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyj-QJ-ddV">
                                                             <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
-                                                            <state key="normal" title="Button with name as title"/>
-                                                            <connections>
-                                                                <action selector="expandButtonTouchUpInside:" destination="LDU-PU-Hnw" eventType="touchUpInside" id="szC-rY-IQh"/>
-                                                            </connections>
-                                                        </button>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                            <nil key="textColor"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
                                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter correct name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GqL-U3-IH5">
                                                             <rect key="frame" x="0.0" y="54" width="375" height="45.5"/>
                                                             <nil key="textColor"/>
@@ -59,8 +58,8 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
-                                            <outlet property="expandButton" destination="s3U-zf-qZF" id="PQa-h5-cNv"/>
                                             <outlet property="nameCorrectionTextField" destination="GqL-U3-IH5" id="RNy-3t-9CQ"/>
+                                            <outlet property="nameLabel" destination="uyj-QJ-ddV" id="Km1-O5-Cnj"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

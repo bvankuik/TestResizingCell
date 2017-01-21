@@ -1,4 +1,4 @@
-//
+ //
 //  CustomTableViewCell.swift
 //  TestResizingCell
 //
@@ -10,17 +10,7 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var expandButton: UIButton!
     @IBOutlet weak var nameCorrectionTextField: UITextField!
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
-        
-        self.nameCorrectionTextField.isHidden = true
-    }
+    @IBOutlet weak var nameLabel: UILabel!
 
-    @IBAction func expandButtonTouchUpInside(_ sender: Any) {
-        self.nameCorrectionTextField.isHidden = false
-    }
-}
+ }
